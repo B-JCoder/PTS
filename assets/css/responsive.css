@@ -1,0 +1,98 @@
+@media (max-width:1148px) {
+    #heading{
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: normal;
+  
+    }
+   
+    
+    
+    
+  }
+  
+  @media (max-width: 1092px) {
+    header .btn{
+      display: block;
+    }
+  
+    header .menu a{
+      border-radius: 2px;
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      align-items: center;
+      padding: 5px 10px;
+  
+    }
+  header a img{
+    width: 80%;
+    right: 90px;
+    
+  }
+  
+  
+    header .menu.active{
+      right: 0px;
+    }
+  
+    header .menu{
+      position: fixed;
+      background-image:url(https://targetmediausa.com/wp-content/uploads/2021/10/bg-world-dark.jpg) ;
+      flex-direction: column;
+      min-width: 300px;
+      height: 100vh;
+      top: 0;
+      right: -120%;
+      padding: 80px 50px;
+      transition-property: right;
+      transition: 0.5s;
+      align-items: center;
+    }
+  
+    header .menu .close-btn {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 25px;
+    }
+    header .menu a{
+      display: block;
+      font-size: 16px;
+      margin: 20px;
+      padding: 0 15px;
+    }
+  }
+  
+  
+  @media (max-width: 780px) {
+    #heading{
+      font-size: 30px;
+      line-height: 60px;
+    }
+  }
+  @media (max-width: 660px) {
+    .header{
+      font-size: 20px;
+      line-height: 60px;
+      letter-spacing: normal;
+    }
+  }
+  @media (max-width: 602px) {
+    #heading{
+      font-size: 20px;
+      
+    }
+  }
+  @media (max-width: 454px) {
+    #heading{
+      font-size: 10px;
+      
+    }
+  }
+  @media (max-width: 320px) {
+    #heading{
+      font-size: 7px;
+      
+    }
+  }
