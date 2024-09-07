@@ -96,3 +96,225 @@
       
     }
   }
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+    .logo-image {
+      width: 90%;
+      max-width: 300px;
+    }
+  }
+  @media (max-width: 768px) {
+    .cards-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    #main h1 {
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+    }
+  }
+
+
+  /* Responsive styles */
+
+/* For tablets and smaller desktops */
+@media screen and (max-width: 1024px) {
+  /* Header */
+  header {
+    padding: 15px 50px;
+  }
+
+  header.sticky {
+    padding: 10px 50px;
+  }
+
+  /* Main section */
+  .heading-div {
+    left: 50px;
+  }
+
+  #heading1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  #heading2 {
+    font-size: 30px;
+  }
+
+  /* About section */
+  .about {
+    padding: 30px 15px;
+  }
+
+  #about-h1 {
+    font-size: 80px;
+    left: 0;
+    text-align: center;
+  }
+
+  .logo-image {
+    max-width: 300px;
+    height: auto;
+    left: 0;
+  }
+
+  /* Services section */
+  .cards-list {
+    justify-content: center;
+  }
+
+  .card {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  /* Why Choose Us section */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+  /* Header */
+  header {
+    padding: 10px 20px;
+  }
+
+  header .menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  header .menu.active {
+    display: flex;
+  }
+
+  header .menu a {
+    margin: 10px 0;
+  }
+
+  header .btn {
+    display: block;
+  }
+
+  /* Main section */
+  .heading-div {
+    left: 20px;
+    top: 50px;
+  }
+
+  #heading1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #heading2 {
+    font-size: 24px;
+  }
+
+  /* About section */
+  #about-h1 {
+    font-size: 60px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .logo-image {
+    max-width: 250px;
+    margin-top: 30px;
+  }
+
+  /* Services section */
+  .card {
+    width: 90%;
+  }
+
+  /* Why Choose Us section */
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact form */
+  .form {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .info-item {
+    margin-bottom: 20px;
+  }
+}
+
+/* For very small devices */
+@media screen and (max-width: 480px) {
+  #heading1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #heading2 {
+    font-size: 20px;
+  }
+
+  #about-h1 {
+    font-size: 40px;
+  }
+
+  .logo-image {
+    max-width: 200px;
+  }
+
+  .form {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .step {
+    flex-basis: calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+  .step {
+    flex-basis: 100%;
+  }
+}
