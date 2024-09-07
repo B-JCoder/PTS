@@ -1,37 +1,3 @@
-.custom-btn {
-  width: 100%;
-  height: 40px;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  outline: none;
-  font-size: 15px;
-}
-
-.btn-1 {
-  background: rgb(180, 12, 40);
-  background: linear-gradient(0deg, rgb(131, 6, 6) 0%, rgb(180, 12, 40) 100%);
-  border: none;
-}
-
-.btn-1:hover {
-  background: rgba(224, 26, 59, 0.651);
-  background: linear-gradient(
-    0deg,
-    rgba(131, 6, 6, 0.596) 0%,
-    rgb(236, 8, 46) 100%
-  );
-  transform: scale(1.1);
-}
 
 /* _____________________________________________________adkfjllkfadkajfkla */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -117,7 +83,7 @@ body {
 .section-main #heading2 {
   font-size: 40px;
   font-weight: 800;
-  color:#EEEEEE;
+  color: #eeeeee;
 
   /* CSS for text with image */
 }
@@ -153,7 +119,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 4px;
   line-height: 90px;
-color: #000;
+  color: #000;
   /* For Safari compatibility */
   color: transparent; /* Text color made transparent to show the background image */
 }
@@ -258,6 +224,42 @@ header .btn-res {
   background: none;
 }
 
+.custom-btn {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  font-size: 15px;
+}
+
+.btn-1 {
+  background: rgb(180, 12, 40);
+  background: linear-gradient(0deg, rgb(131, 6, 6) 0%, rgb(180, 12, 40) 100%);
+  border: none;
+}
+
+.btn-1:hover {
+  background: rgba(224, 26, 59, 0.651);
+  background: linear-gradient(
+    0deg,
+    rgba(131, 6, 6, 0.596) 0%,
+    rgb(236, 8, 46) 100%
+  );
+  transform: scale(1.1);
+}
+/* ____________________________--about______________________ */
+
 .about {
   padding: 50px 20px;
 
@@ -280,16 +282,7 @@ header .btn-res {
   color: rgba(255, 255, 255, 0.89);
   color: #000;
 }
-#about-h1::after {
-  content: "";
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background-image: url(/assets/images/text-bg2.jpg);
-  /* color: #000; */
-}
+
 
 .container {
   max-width: 1200px;
@@ -361,7 +354,6 @@ header .btn-res {
   left: 50px;
   transition: top 0.5s ease, left 0.5s ease;
   clip-path: circle(50.1% at 50% 50%);
-  
 }
 .logo-image:hover {
   transform: scale(1.1) rotate(3deg);
@@ -404,18 +396,10 @@ header .btn-res {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
-  .row {
-    flex-direction: column;
-  }
-  .logo-image {
-    width: 90%;
-    max-width: 300px;
-  }
-}
+
 /* services___________________________________________________ */
 #main {
-  background: #EEEEEE;
+  background: #eeeeee;
   position: relative;
   padding: 50px 0;
   /* filter: brightness(1) contrast(1.4) saturate(1.8); */
@@ -486,9 +470,7 @@ header .btn-res {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
-
 }
-
 
 /* Card Title */
 .card_title .heading {
@@ -507,7 +489,6 @@ header .btn-res {
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 50px;
-
 }
 
 /* List Styling */
@@ -536,21 +517,8 @@ li:hover {
   margin: 20px auto 0;
 }
 
-
 /* Responsive Design */
-@media (max-width: 768px) {
-  .cards-list {
-      flex-direction: column;
-      align-items: center;
-  }
-  .card {
-      width: 90%;
-      margin-bottom: 20px;
-  }
-  #main h1 {
-      font-size: 40px;
-  }
-}
+
 
 .footer {
   background-color: #f1f5f9;
@@ -609,10 +577,6 @@ li:hover {
   text-decoration: none;
 }
 
-
-
-
-
 /* __________________________Contact Form_______________________/ */
 .form {
   display: flex;
@@ -623,11 +587,10 @@ li:hover {
   padding-bottom: 0.4em;
   background-color: #171717;
   border-radius: 25px;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
   cursor: pointer;
   border: 1px solid #333;
   box-shadow: 0 5px 10px rgb(5, 5, 5);
-  
 }
 
 .form:hover {
@@ -682,14 +645,12 @@ textarea.input-field {
 }
 
 .button1 {
-  padding: 0.5em;
-  padding-left: 1.1em;
-  padding-right: 1.1em;
+  /* padding: 0.5em;
+  padding-left: 2.1em;
+  padding-right: 2.1em; */
   border-radius: 5px;
   margin-right: 0.5em;
-  border: none;
-  outline: none;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
   background-color: #252525;
   color: white;
 }
@@ -705,8 +666,9 @@ textarea.input-field {
   padding-right: 2.3em;
   border-radius: 5px;
   border: none;
+  margin-bottom: 20px;
   outline: none;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
   background-color: #252525;
   color: white;
 }
@@ -722,7 +684,7 @@ textarea.input-field {
   border-radius: 5px;
   border: none;
   outline: none;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
   background-color: #252525;
   color: white;
 }
@@ -732,42 +694,8 @@ textarea.input-field {
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Root colors and variables */
-:root {
-  --primary-color: hsl(346.8, 77.2%, 49.8%);
-  --foreground-color: hsl(240, 10%, 3.9%);
-  --background-color: #f1f5f9;
-  --text-muted: hsl(240, 3.8%, 45%);
-}
+
 
 /* Section container styles */
 .why-choose-us {
@@ -793,7 +721,6 @@ textarea.input-field {
   transition: transform 0.5s;
   text-align: center;
 }
-
 
 p {
   color: var(--text-muted);
@@ -825,7 +752,6 @@ p {
   font-weight: bold;
   color: var(--primary-color);
 }
-
 
 .footer {
   background-color: #1c1c1c;
@@ -884,7 +810,8 @@ p {
   margin-right: 0.5rem;
 }
 
-h2, h3 {
+h2,
+h3 {
   margin: 0 0 1rem 0;
 }
 
@@ -940,15 +867,6 @@ button:hover {
   background-color: #ff5722;
 }
 
-@media (max-width: 768px) {
-  .footer-content {
-      grid-template-columns: 1fr;
-  }
-
-  .contact-info {
-      flex-direction: column;
-  }
-}
 
 /* Container for social media icons */
 .social-media-icons {
@@ -1001,4 +919,63 @@ button:hover {
 .social-media-icons i.bxl-linkedin-square:hover {
   background-color: #004d80; /* Darker shade on hover */
   border-color: #004d80; /* Darker shade border on hover */
+}
+
+/* /* __________________________________STEPS_______________ */
+
+
+.container-process {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container-process h1 {
+  color: #333;
+  border-left: 4px solid #9b59b6;
+  padding-left: 10px;
+}
+.description {
+  color: #666;
+  margin-bottom: 20px;
+}
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.step {
+  flex-basis: calc(20% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border: 3px solid #D80F30;
+
+}
+.step:hover {
+  transform: translateY(-5px);
+}
+.icon {
+  width: 100px;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+}
+.icon img {
+  width: 100%;
+  height: auto;
+}
+.step-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.step-description {
+  font-size: 0.9em;
+  color: #666;
 }
